@@ -1,6 +1,8 @@
 library(lubridate)
 
-# Load the data
+# Load the data - You must have downloaded and unzipped the file from
+# https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+# and it must be in the working directory
 data <- read.table("household_power_consumption.txt", header = TRUE, na.strings="?", sep=";")
 
 # Change the Date column to date type using lubridate
